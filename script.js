@@ -1,6 +1,12 @@
 let city=document.getElementById("city");
 function getweather()
 {
+    var x=document.getElementsByClassName("col");
+    console.log(x);
+    for(var i=0;i<9;i++)
+    {
+        x[i].style.visibility="visible";
+    }
     openweather();
     weatherbit();
     const date1= new Date();

@@ -8,6 +8,7 @@ body
     text-align: center;
     font-size: 70px;
 }
+
 .date1,.date2,.date3,.date4
 {
     color: white;
@@ -51,6 +52,7 @@ body
 }
 .col
 {
+    visibility: hidden;
     display: flex;
     justify-content: center;
     flex-direction: row;
