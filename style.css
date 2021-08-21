@@ -1,90 +1,71 @@
-.container
+body
 {
-    margin-top: 5%;  
-}
-.search
-{
-    border-radius: 5px;
-    font-size: 25px;
-    line-height: 35px;
-    background-color: darkblue;
-    font-weight: bold;
-    color:white;
-    margin: 5px;
-    color: cyan;
-    border-color: black;
-}
-.button
-{
-    background-color: cyan;
-    border-radius: 3px;
-    margin-top: 20px;
-    padding:5px 10px;
-    font-size: large;
-
-}
-.searchbox
-{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.weather,.max_temp,.min_temp
-{
-    color: black;
-    margin: auto;
-    line-height: 20px;
-    font-size: 15px;
-}
-form
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.text
-{
-    color: aliceblue;
+    background: linear-gradient(to top,navy,black);
 }
 .heading
 {
-    color:aquamarine;
+    color:white;
     text-align: center;
-    font-size: 60px;
-    margin-bottom: -5%;
+    font-size: 70px;
 }
-.col-1
+.date1,.date2,.date3,.date4
 {
-    width:25%;
-}
-.api1
-{
-    font-size: 45px;
     color: white;
-    margin-bottom: 10%;
-    text-align: center;
-
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    font-size: 30px;
 }
-body
+.searchbox
 {
-    background-color: rgb(1, 1, 37);
-}
-
-.box
-{
-    border: 2px;
-    border-color: black;
-    background-color: rgb(157, 255, 255);
-    width: 500px;
-    margin:auto;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
+.search
+{
+    width: 100px;
+    margin: 2%;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.city
+{
+    width: 400px;
+    font-size: 20px;
+    line-height: 25px;
+}
 
+.api
+{
+    width: 50%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.row
+{
+    display: flex;
+    flex-direction: column;
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.box1,.box2
+{
+    background:linear-gradient(to top,aqua,turquoise);
+    width:33%;
+    margin: auto;
+    min-height: 500px;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    margin-bottom: 2%;
+    flex-direction: column;
+    align-items: center;
+}

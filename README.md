@@ -1,3 +1,3 @@
 # WeatherNerd 
-## This is a web app which displays data from 4 different weather api *for weathernerd in me*
+## This is a web app which displays data from 2 different weather api 1)Openweather 2)Weatherbit *for weathernerd in me*
 
